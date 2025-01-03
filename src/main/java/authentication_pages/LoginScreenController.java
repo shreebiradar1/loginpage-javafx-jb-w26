@@ -49,7 +49,7 @@ public class LoginScreenController extends SqlData {
 			// the next method moves the cursor forward one row from its current position,A
 			// ResultSet cursor is initially positioned before the first row
 			if (result.next()) {
-				// This will be shown on the frontend window
+				// This will be shown on the frontend window in the label taged
 				this.errorMessage.setText("Login Successful");
 
 			} else {
